@@ -41,7 +41,7 @@ export default function PassGen() {
 
   return (
     <>
-      <div className="p-10 rounded bg-sky-500 border-solid border-2 border-white-600 shadow-lg shadow-blue-500/50">
+      <div className="p-10 rounded border-solid border-2 border-white-600 shadow-lg main_bg">
         <h1 className="text-center text-white text-4xl font-bold">
           Password Generator
         </h1>
