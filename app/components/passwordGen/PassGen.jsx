@@ -42,11 +42,11 @@ export default function PassGen() {
   return (
     <>
       <div className="p-10 rounded border-solid border-2 border-white-600 shadow-lg main_bg">
-        <h1 className="text-center text-white text-4xl font-bold">
+        <h1 className="text-center my-10 text-white text-4xl font-bold">
           Password Generator
         </h1>
 
-        <div className="flex justify-center gap-x-3 my-3">
+        <div className="flex justify-center gap-x-3 my-10">
           <input
             type="text"
             placeholder="Generate Password"
@@ -62,7 +62,7 @@ export default function PassGen() {
             Copy
           </button>
         </div>
-        <div className="rageContainer flex flex-col md:flex-row gap-x-3 justify-center">
+        <div className="rageContainer flex flex-col md:flex-row gap-10 justify-center">
           <div className="rangePicker flex flex-col gap-y-3 my-3 md:my-0">
             <input
               type="range"
@@ -73,7 +73,7 @@ export default function PassGen() {
             />
             <label className="text-white text-center">Length : {length}</label>
           </div>
-          <div className="optional flex flex-col md:flex-row   gap-3">
+          <div className="optional flex flex-col md:flex-row   gap-10">
             <div className="includeNumber flex flex-col gap-y-3">
               <input
                 type="checkbox"
